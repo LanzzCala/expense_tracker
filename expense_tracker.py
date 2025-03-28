@@ -17,8 +17,17 @@ def get_expense_and_amount():
     return expense_list
 
 def display_expense_list(expense_list):
+    """Print the entire dictionary of expeneses."""
     print (expense_list)
-    
+
+def add_all_expenses(expense_list):
+    total = 0
+    number = expense_list.get("item_amount")
+    for number in expense_list:
+        total += number
+    return total
+
 
 expense_list = get_expense_and_amount()
 display_expense_list(expense_list)
+print(add_all_expenses(expense_list))
