@@ -21,4 +21,4 @@ def display_expense_list(expense_list):
     
 
 expense_list = get_expense_and_amount()
-print(expense_list)
+display_expense_list(expense_list)
