@@ -15,10 +15,7 @@ def get_expense_and_amount():
             break
     return expense_list
 
-def display_expense_list():
-    """Display entire list of expense IDs with items and amount."""
-    print(get_expense_and_amount())
 
-
-display_expense_list()
+test = get_expense_and_amount()
+print (test)
     
