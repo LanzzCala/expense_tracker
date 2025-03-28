@@ -1,7 +1,5 @@
 from datetime import date
 
-
-
 def get_expense_and_amount():
     """Receive an expense and amount and add to expenses list."""
     expense_list = {}
